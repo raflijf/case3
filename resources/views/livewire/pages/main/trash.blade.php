@@ -21,7 +21,7 @@
                                         <flux:modal.close>
                                             <flux:button variant="ghost">Cancel</flux:button>
                                         </flux:modal.close>
-                                        <flux:button type="submit" variant="danger" wire:click="permanentDelete({{ $article->id }})">Hapus Permanen</flux:button>
+                                        <flux:button  x-on:click="$flux.modal('deletePermanent').close()" variant="danger" wire:click="permanentDelete({{ $article->id }})">Hapus Permanen</flux:button>
                                     </div>
                                 </div>
                             </flux:modal>
