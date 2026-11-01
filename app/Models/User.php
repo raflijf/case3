@@ -14,6 +14,8 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 
+use App\Models\CustAuth;
+
 /**
  * @property int $id
  * @property string $name
@@ -28,6 +30,9 @@ use Illuminate\Support\Str;
 #[Hidden(['password', 'remember_token'])]
 class User extends Authenticatable
 {
+    public $isAuthenticated = false;
+
+
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable;
 
@@ -55,4 +60,32 @@ class User extends Authenticatable
             ? Str::substr($initials, 0, 1).Str::substr($initials, -1)
             : $initials;
     }
+
+
+    public static function me() {
+        $cookie = request()->cookie('sessions_key');
+
+        if (empty($cookie)) {
+            return new self();
+        }
+
+        $user = CustAuth::query()
+            ->join('users', 'auth_session.user_id', '=', 'users.id')
+            ->where('auth_session.key', $cookie)
+            ->where('auth_session.expired_at', '>', now())
+            ->select('users.*')
+            ->first();
+
+        if ($user === null) {
+            return new self();
+        }
+
+        $userModel = new self();
+        $userModel->setRawAttributes((array) $user->getAttributes());
+
+        $userModel->isAuthenticated = true;
+
+        return $userModel;
+    }
+
 }

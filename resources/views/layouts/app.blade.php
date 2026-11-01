@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="grid grid-rows-[auto_minmax(100vh,1fr)_auto] ">
-            <x-app.navbar/>
+            <livewire:app.navbar/>
             <div>
                 <div class="mx-auto max-w-[1024px] w-full ">
                     {{ $slot }}
@@ -23,6 +23,9 @@
             </div>
             <x-app.footer/>
         </div>
+         @persist('toast')
+            <flux:toast position="top end" />
+        @endpersist
         @livewireScripts
         @fluxScripts
     </body>

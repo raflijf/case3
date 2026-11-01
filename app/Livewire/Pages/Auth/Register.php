@@ -5,6 +5,7 @@ namespace App\Livewire\Pages\Auth;
 use Livewire\Component;
 use App\Models\CustAuth;
 use App\Models\Exception;
+use App\Exceptions\InvalidCredentialException;
 
 
 class Register extends Component
@@ -51,15 +52,15 @@ class Register extends Component
     public function register() {
         $this->validate();
         try {
-            CustAuth::register($this->username, $this->confirmPassword);
-            $this->redirect('/login');
-        } catch (\Throwable $e) {
+            $register = CustAuth::register($this->username, $this->confirmPassword);
+            if ($register == 'SUCCESS') {
+                $this->redirect('/login');
+            }
+        } catch (InvalidCredentialException $e) {
             $this->addError('username', $e->getMessage());
         }
     
     }
-
-   
 
     public function render()
     {

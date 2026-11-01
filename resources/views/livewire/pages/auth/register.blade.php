@@ -8,12 +8,12 @@
         </flux:field>
         <flux:field>
             <flux:label>Buat Password:</flux:label>
-            <flux:input wire:model="makePassword"  icon="key" type="Password" placeholder="••••••••••"   x-bind:type="showPassword ? 'text' : 'password'" />
+            <flux:input wire:model="makePassword"  icon="key" type="Password" placeholder="••••••••••" viewable />
             <flux:error name="makePassword" />
         </flux:field>
         <flux:field>
             <flux:label>Konfirmasi Password:</flux:label>
-            <flux:input wire:model="confirmPassword" icon="key" type="Password"   placeholder="••••••••••"/>
+            <flux:input wire:model="confirmPassword" icon="key" type="Password"   placeholder="••••••••••" viewable/>
             <flux:error name="confirmPassword" />
         </flux:field>
         {{-- <flux:checkbox label="Tampilkan Password" x-model="showPassword" /> --}}

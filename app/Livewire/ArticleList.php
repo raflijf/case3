@@ -3,12 +3,18 @@
 namespace App\Livewire;
 
 use Livewire\Component;
+use App\Models\Article;
+use Livewire\Attributes\Computed;
+use Livewire\WithPagination;
+
 
 class ArticleList extends Component
 {
-    public $count = 10;
-    public function getOtherPost() {
-        $this->count += 10;
+    use WithPagination;
+    
+    #[Computed]
+    public function getAll() {
+        return Article::latest()->paginate(15);
     }
 
     public function render()
@@ -16,3 +22,4 @@ class ArticleList extends Component
         return view('livewire.article-list');
     }
 }
+
