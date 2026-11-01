@@ -1,5 +1,5 @@
-<div>
-    <div class="max-w-3xl">
+<div class="flex justify-center mt-3">
+    <div class="max-w-3xl w-full">
         <flux:button variant="ghost" size="sm" icon="arrow-left" onclick="window.history.back()"  wire:navigate ></flux:button>
         @foreach ($this->getAllTrashed as $article )
             <div class="my-12" >
