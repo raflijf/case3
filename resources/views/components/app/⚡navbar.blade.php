@@ -23,7 +23,7 @@ new class extends Component
             
             @if (me()->isAuthenticated)
                 <a wire:navigate  href="/profile" >
-                    <flux:avatar color="emerald" :name=" me()->name ? me()->name : me()->username "  />
+                    <flux:avatar size="sm" color="emerald" :name=" me()->name ? me()->name : me()->username "  />
                 </a>
             @else 
                 <flux:button href="/login" size="sm" wire:navigate color="emerald" >Login</flux:button>
