@@ -35,7 +35,24 @@
             </div>
 
             <div>
-                {{-- <flux:button variant="outline" icon="pencil-square" class="w-full sm:w-auto">Edit Profile</flux:button> --}}
+                <flux:modal.trigger name="edit-profile">
+                    <flux:button size="sm" variant="outline" icon="pencil-square" class="w-full sm:w-auto">Edit Profile</flux:button>
+                </flux:modal.trigger>
+                <flux:modal name="edit-profile" class="md:w-96">
+                    <div class="space-y-6">
+                        <div>
+                            <flux:heading size="lg">Edit profil</flux:heading>
+                        </div>
+                        <flux:input label="Username" placeholder="username" wire:model="username"/>
+                        <flux:input label="Email" type="email" placeholder="pigai@example.com" wire:model="email"/>
+                        <flux:input label="Nama" placeholder="Nama lengkap" wire:model="name"/>
+                        <div class="flex">
+                            <flux:button size="sm" variant="ghost"  >Reset Password</flux:button>
+                            <flux:spacer />
+                            <flux:button variant="primary" wire:click="update">Simpan</flux:button>
+                        </div>
+                    </div>
+                </flux:modal>
             </div>
       
         </section>

@@ -15,6 +15,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 
 use App\Models\CustAuth;
+use App\Exceptions\InvalidCredentialException;
 
 /**
  * @property int $id
@@ -61,6 +62,9 @@ class User extends Authenticatable
             : $initials;
     }
 
+    public static function profileUpdate($data = []) {
+        self::where('id', me()->id)->update($data);
+    }
 
     public static function me() {
         $cookie = request()->cookie('sessions_key');
