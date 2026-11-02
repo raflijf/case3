@@ -49,7 +49,7 @@
                         <div class="flex">
                             <flux:button size="sm" variant="ghost"  >Reset Password</flux:button>
                             <flux:spacer />
-                            <flux:button variant="primary" wire:click="update">Simpan</flux:button>
+                            <flux:button variant="primary" wire:click="update"  x-on:click="$flux.modal('confirm').close()">Simpan</flux:button>
                         </div>
                     </div>
                 </flux:modal>
@@ -68,16 +68,6 @@
                     {{ $count }}
                 </p>
             </div>
-
-            {{-- <div class="rounded-xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">
-                <p class="text-sm text-zinc-500 dark:text-zinc-400">
-                    Dipublikasikan
-                </p>
-
-                <p class="mt-1 text-2xl font-semibold text-zinc-900 dark:text-white">
-                    8
-                </p>
-            </div> --}}
         </section>
 
         {{-- Articles --}}
@@ -92,10 +82,6 @@
             </div>
 
             <div class="space-y-3">
-
-                {{-- Article Card 1 --}}
-                {{-- {{ $this->getMyArticles }} --}}
-                {{-- <livewire:article-list/> --}}
                 @foreach ($this->getMyArticles as $article)
                     <x-app.card :article="$article"/>
                 @endforeach

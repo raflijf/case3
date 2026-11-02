@@ -95,6 +95,8 @@ class Profile extends Component
         $this->disabled = false;
         $this->validate($rules);
         User::profileUpdate($data);
+
+        $this->modal('edit-profile')->close();
     }
 
     public function render()

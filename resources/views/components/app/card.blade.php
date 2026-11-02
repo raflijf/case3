@@ -19,9 +19,9 @@
 
             <div class="flex min-w-0 flex-1 flex-col gap-3 mx-2">
                 <div class="flex items-center gap-2">
-                    <flux:avatar size="xs" :name="$article->user->username"/>
+                    <flux:avatar size="xs" color="blue" :name="$article->user->name ?  $article->user->name : $article->user->username"/>
                     <p class="text-xs text-zinc-500">
-                        {{ $article->user->username }} • <span>{{ $article->created_at->diffForHumans()  }}</span>
+                        {{ $article->user->name ?  $article->user->name : $article->user->username }} • <span>{{ $article->created_at->diffForHumans()  }}</span>
                     </p>
                 </div>
 
