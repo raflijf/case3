@@ -4,14 +4,16 @@
 <div class="md:w-[65%]  lg:w-full max-w-3xl ">
     <flux:card class="rounded-none border-x-0 border-t-0 bg-transparent p-0">
         <a  href="{{ $trash ? '' : 'article/'.$article->slug ;}}" wire:navigate class="flex flex-col gap-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
-            <div class="order-first w-full shrink-0 overflow-hidden sm:order-last sm:w-48 md:w-60   ">
+            <div class="order-first w-full shrink-0 overflow-hidden sm:order-last sm:w-48 md:w-60  ">
                 @if ($article->img)
                     <img
                         src="{{ $article->img }}"
                         alt="{{ $article->title }} }}"
                         loading="lazy"
-                        class="aspect-video w-full object-cover"
+                        class="aspect-video w-full object-cover rounded"
                     >
+                @else 
+                    <img class="aspect-video w-full h-full object-cover rounded " src="{{ asset('images/blank.png') }}"></img>
                 @endif
             </div>
 
