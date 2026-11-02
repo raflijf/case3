@@ -24,18 +24,15 @@ class CustAuth extends Model
     }
 
     public function login($username, $password) {
-        // cek user ado apo idk
         if (!User::where('username', $username)->exists()) {
             throw new InvalidCredentialException('Username atau Password salah ');
         }
 
-        // ambil user samo cek password 
         $user = User::where('username', $username)->first();
         if (!Hash::check($password, $user->password)) {
             throw new InvalidCredentialException('Username atau Password salah');
         }
 
-        // buat dan simpan session key di db samo cookie
         $sessionKey = $this->generateSessionKey();
         self::create([
             'user_id' => $user->id,
@@ -52,22 +49,17 @@ class CustAuth extends Model
         return 'SUCCESS';
     }
 
-
-
     public static function register($username, $password) {
-        // cek username sudah dipakai atau belum
         if (User::where('username', $username)->exists()) {
             throw new InvalidCredentialException('Username sudah digunakan');
         }
 
-        // hash pw dan buat user 
         $hashedPassword = Hash::make($password);
         User::create([
             'username' => $username,
             'password' => $hashedPassword
         ]);
         return 'SUCCESS';
-        
     }
 
     public static function logout() {

@@ -38,6 +38,7 @@ class Profile extends Component
             ],
 
             'username' => [
+                'required',
                 'string',
                 'min:3',
                 'max:30',
