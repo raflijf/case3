@@ -75,27 +75,44 @@ Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro
     php artisan schedule:work
   ```
 
-## Port forwading 
+## Port forwading
+
 - [ngrok](https://ngrok.com/) atau lainnya (tapi sesuaikan sendiri)
-- Tambah kode berikut ke app\Providers\AppServiceProvider.php
-    ``` 
-        public function boot(): void
-        {
-            <!-- ...... -->
-            if (app()->environment('local')) {
-                URL::forceScheme('https');
-            }
-            <!-- ...... -->
+
+- Tambah kode berikut ke `app\Providers\AppServiceProvider.php`
+
+  ```php
+    public function boot(): void
+    {
+        <!-- ...... -->
+        if (app()->environment('local')) {
+            URL::forceScheme('https');
         }
-    ```
+        <!-- ...... -->
+    }
+  ```
+
 - di dir case3/ run :
-    `npm run build`
-    `php artisan serve`
-- ngrok run : 
-    `ngrok http 8000`
+
+  ```
+    npm run build
+    php artisan serve
+  ```
+
+- ngrok run :
+
+  ```
+    ngrok http 8000
+  ```
+
 - copy forwarding
-    `https://4e49-2400-9800-531-9821-1df2-c074-e56e-c200.ngrok-free.app`
+
+  ```
+    https://<FORWADING_DOMAIN>.ngrok-free.app
+  ```
+
 - paste ke browser
+
 
 (klo ada error atur sendiri aja 😁😁😁 )
 
