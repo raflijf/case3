@@ -32,7 +32,9 @@ Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro
 
 ## Instalasi
 - Clone repo
-    ```git clone https://github.com/raflijf/case3.git```
+    ```
+        git clone https://github.com/raflijf/case3.git
+    ```
 - Masuk ke direktori 
 - install dependensi
     ```npm install```
