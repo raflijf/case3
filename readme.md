@@ -5,7 +5,7 @@ Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro
 ## Fitur 
 - Authentication Login dan Register (Native session auth)
 - CRUD
-- Softdelete
+- Softdelete (restore, delete permanent)
 - Upload image ke cloud 
 - Schedule Quotes (kata-kata hari ini)
 
