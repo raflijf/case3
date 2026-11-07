@@ -49,7 +49,7 @@ Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro
 
 - copy .env.example -> .env
 
-- sesuaikan server database
+- sesuaikan config database
 
 - Buat App key
 
@@ -58,6 +58,9 @@ Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro
   ```
 
 - run migrate
+    ``` 
+        php artisan migrate
+    ```
 
 - run app dan vite
 
