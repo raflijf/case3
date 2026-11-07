@@ -31,24 +31,46 @@ Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro
 (maklum deket deadline njir wkwkwkwkw)
 
 ## Instalasi
+
 - Clone repo
-    ```
-        git clone https://github.com/raflijf/case3.git
-    ```
-- Masuk ke direktori 
+
+  ```
+    git clone https://github.com/raflijf/case3.git
+  ```
+
+- Masuk ke direktori
+
 - install dependensi
-    ```npm install```
-    ```composer install```
+
+  ```
+    npm install
+    composer install
+  ```
+
 - copy .env.example -> .env
+
 - sesuaikan server database
+
 - Buat App key
-    ```php artisan key:generate```
+
+  ```
+    php artisan key:generate
+  ```
+
 - run migrate
+
 - run app dan vite
-    ```npm run dev```
-    ```php artisan serve```
+
+  ```
+    npm run dev
+    php artisan serve
+  ```
+
 - run shedule (opsional)(untuk set quotes today)
-    ```php artisan schedule:work```
+
+  ```
+    php artisan schedule:work
+  ```
 
 ## Port forwading 
 - [ngrok](https://ngrok.com/) atau lainnya (tapi sesuaikan sendiri)
