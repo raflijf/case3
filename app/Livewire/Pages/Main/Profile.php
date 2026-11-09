@@ -32,8 +32,10 @@ class Profile extends Component
             'name' => ['string', 'max:100'],
 
             'email' => [
+                'required',
                 'email',
                 'max:255',
+                'regex:/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/',
                 'unique:users,email',
             ],
 
@@ -62,6 +64,7 @@ class Profile extends Component
             'email.email' => 'Format email tidak valid.',
             'email.max' => 'Email maksimal 255 karakter.',
             'email.unique' => 'Email sudah digunakan.',
+            'email.regex' => 'Format Email tidak valid',
 
             // Username
             'username.required' => 'Username wajib diisi.',
