@@ -49,7 +49,7 @@
                         <div class="flex">
                             <flux:button size="sm" variant="ghost"  >Reset Password</flux:button>
                             <flux:spacer />
-                            <flux:button variant="primary" wire:click="update"  x-on:click="$flux.modal('confirm').close()">Simpan</flux:button>
+                            <flux:button variant="primary" wire:click="update">Simpan</flux:button>
                         </div>
                     </div>
                 </flux:modal>
