@@ -11,7 +11,8 @@ use App\Exceptions\InvalidCredentialException;
 class Register extends Component
 {
     public $username = '';
-    public $makePassword = '';
+    public $email = '';
+    public $makePassword = '';  
     public $confirmPassword = '';
 
      protected function rules(): array
@@ -21,6 +22,11 @@ class Register extends Component
                 'required',
                 'min:3',
                 'regex:/^[a-zA-Z0-9_]+$/',
+            ],
+            'email' => [
+                'required',
+                'unique:users,email',
+                'regex:/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/'
             ],
             'makePassword' => [
                 'required',
@@ -39,6 +45,10 @@ class Register extends Component
             'username.min' => 'Username minimal 3 karakter.',
             'username.regex' => 'Username hanya boleh menggunakan huruf, angka, dan underscore.',
 
+            'email.required' => 'Email wajib diisi.',
+            'email.unique'   => 'Email sudah terdaftar.',
+            'email.regex'    => 'Format email tidak valid.',
+
             'makePassword.required' => 'Password wajib diisi.',
             'makePassword.min' => 'Password minimal 8 karakter.',
             'makePassword.regex' => 'Password harus mengandung huruf kecil, huruf besar, angka, dan karakter.',
@@ -52,7 +62,7 @@ class Register extends Component
     public function register() {
         $this->validate();
         try {
-            $register = CustAuth::register($this->username, $this->confirmPassword);
+            $register = CustAuth::register($this->username, $this->confirmPassword, $this->email);
             if ($register == 'SUCCESS') {
                 $this->redirect('/login');
             }

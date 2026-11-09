@@ -49,7 +49,7 @@ class CustAuth extends Model
         return 'SUCCESS';
     }
 
-    public static function register($username, $password) {
+    public static function register($username, $password, $email) {
         if (User::where('username', $username)->exists()) {
             throw new InvalidCredentialException('Username sudah digunakan');
         }
@@ -57,7 +57,8 @@ class CustAuth extends Model
         $hashedPassword = Hash::make($password);
         User::create([
             'username' => $username,
-            'password' => $hashedPassword
+            'password' => $hashedPassword,
+            'email' => $email
         ]);
         return 'SUCCESS';
     }

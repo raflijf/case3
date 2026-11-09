@@ -27,7 +27,7 @@ use App\Exceptions\InvalidCredentialException;
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  */
-#[Fillable(['username', 'password'])]
+#[Fillable(['username', 'password', 'email'])]
 #[Hidden(['password', 'remember_token'])]
 class User extends Authenticatable
 {

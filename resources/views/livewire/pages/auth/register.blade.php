@@ -2,6 +2,11 @@
     <h1 class="text-center text-3xl text-emerald-500 font-bold mb-5 ">Register</h1>
     <form class="flex flex-col gap-5"  wire:submit="register"    >  
         <flux:field>
+            <flux:label>Email:</flux:label>
+            <flux:input icon="envelope" autoComplate="false" type="text" wire:model="email" placeholder="Masukkan Email"/>
+            <flux:error name="email" />
+        </flux:field>
+        <flux:field>
             <flux:label>Username:</flux:label>
             <flux:input  wire:model="username" icon="user" placeholder="Masukkan Username"/>
             <flux:error name="username" />
