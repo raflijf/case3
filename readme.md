@@ -25,8 +25,7 @@ Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro
 - [MySQL](https://dev.mysql.com/doc/) / Atau database lainnya 
 
 ## Limitasi
-- UI/UX masih perlu ditingkatkan.
-- Belum tersedia fitur reset password.
+- UI/UX masih perlu ditingkatkan
 - Query database masih cukup banyak sehingga performa aplikasi bisa menurun ketika traffic meningkat.
 (maklum deket deadline njir wkwkwkwkw)
 
