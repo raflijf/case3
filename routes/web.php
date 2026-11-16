@@ -9,6 +9,9 @@ use App\Livewire\Pages\Main\Trash;
 use App\Livewire\Pages\Main\ReadArticle;
 use App\Livewire\Pages\Auth\Login;
 use App\Livewire\Pages\Auth\Register;
+use App\Livewire\Pages\Auth\ChangePassword;
+use App\Livewire\Pages\Auth\ResetPassword;
+use App\Livewire\Pages\Auth\ForgotPassword;
 
 use App\Models\Article;
 use App\Http\Middleware\AuthRequire;
@@ -31,6 +34,11 @@ Route::middleware([AuthRequire::class])->group(function () {
 
 });
 
+Route::prefix('/auth/password')->group(function () {
+    Route::get('/change', ChangePassword::class)->name('change-password')->middleware(AuthRequire::class);
+    Route::get('/forgot', ForgotPassword::class)->name('forgot-password');
+    Route::get('/reset', ResetPassword::class)->name('reset-password');
+});
 
 Route::get('/test', function () {
     $a = Article::find(10);

@@ -46,10 +46,10 @@
                         <flux:input label="Username" placeholder="username" wire:model="username"/>
                         <flux:input label="Email" type="email" placeholder="pigai@example.com" wire:model="email"/>
                         <flux:input label="Nama" placeholder="Nama lengkap" wire:model="name"/>
-                        <div class="flex">
-                            <flux:button size="sm" variant="ghost"  >Reset Password</flux:button>
+                        <div class="flex items-center">
+                            <flux:button size="sm" variant="ghost"  href="auth/password/change" wire:navigate>Ubah Password</flux:button>
                             <flux:spacer />
-                            <flux:button variant="primary" wire:click="update">Simpan</flux:button>
+                            <flux:button variant="primary" wire:click="update" color="emerald">Simpan</flux:button>
                         </div>
                     </div>
                 </flux:modal>

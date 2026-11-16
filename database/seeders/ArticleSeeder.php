@@ -26,8 +26,9 @@ class ArticleSeeder extends Seeder
             true
         );
 
+        $model  = new Article;
         foreach ($articles as $article) {
-            Article::publish(
+            $model->publish(
                 user_id: $article['user_id'],
                 title: $article['title'],
                 subtitle: $article['subtitle'],

@@ -30,6 +30,9 @@
             </div>
             <x-app.footer/>            
         </div>
+        @persist('toast')
+            <flux:toast position="top end" />
+        @endpersist
         @livewireScripts
         @fluxScripts
     </body>

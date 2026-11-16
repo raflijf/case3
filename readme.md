@@ -38,7 +38,7 @@ Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro
     git clone https://github.com/raflijf/case3.git
   ```
 
-- Masuk ke direktori
+- Masuk ke direktori case3/
 
 - install dependensi
 
@@ -112,7 +112,6 @@ Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro
   ```
 
 - paste ke browser
-
 
 (klo ada error atur sendiri aja 😁😁😁 )
 

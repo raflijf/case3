@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Attributes\Table;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Cache;
 
 use Exception;
 use App\Exceptions\InvalidCredentialException;
@@ -70,6 +71,21 @@ class CustAuth extends Model
             Cookie::forget('sessions_key')
         );
         return 'SUCCESS';
+    }
+
+    public static function setPwResetToken($email) {
+        $token = Str::random(32);
+        Cache::put("pwreset_$token", $email, now()->addMinutes(5));
+        return $token;
+    }
+
+    public static function validatePwResetToken($token) {
+        return Cache::has("pwreset_$token");
+    }
+
+    public static function getUserPwResetToken($token) {
+        $email = Cache::get("pwreset_$token");
+        return User::where('email', $email)->first();
     }
 
 

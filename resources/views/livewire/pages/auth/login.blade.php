@@ -12,10 +12,8 @@
             <flux:error name="password" />
             <flux:error name="both" />
         </flux:field>
-        <div class="flex justify-end">
-            <div>
-
-            </div>
+        <div class="flex justify-between w-full items-center">
+            <flux:button  variant="ghost" size="sm" class="w-fit" href="/auth/password/forgot">Lupa Password?</flux:button>
             <flux:button type="submit" color="emerald" variant="primary">Login</flux:button>
         </div>
     </form>
