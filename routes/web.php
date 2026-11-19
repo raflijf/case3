@@ -26,7 +26,6 @@ Route::middleware([EnsureHasAuth::class])->group(function () {
 });
 
 Route::middleware([AuthRequire::class])->group(function () {
-    Route::livewire('/about', 'pages::main.about')->name('about');
     Route::get('/profile', Profile::class)->name('profile');
     Route::get('/create', Create::class)->name('create');
     Route::get('/trash', Trash::class)->name('trash');
