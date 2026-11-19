@@ -15,9 +15,10 @@ new class extends Component
         <flux:spacer/>
         <flux:navbar class="me-4  min-md:flex gap-3">
             <flux:navbar.item icon="home" href="{{ route('home', request()->only('page'))  }}" wire:navigate  class="max-md:hidden"/>
-            <flux:button icon:trailing="pencil-square" size="sm" variant="primary" color="emerald" class="max-md:hidden" href="{{ me()->isAuthenticated ? '/create' : '/login' }}" wire:navigate >Tulis</flux:button>
+            <flux:navbar.item icon="pencil-square" href="/create" wire:navigate  class="max-md:hidden"/>
+            {{-- <flux:button icon:trailing="pencil-square" size="sm" variant="primary" color="emerald" class="max-md:hidden" href="{{ me()->isAuthenticated ? '/create' : '/login' }}" wire:navigate >Tulis</flux:button> --}}
         </flux:navbar>
-        <flux:separator vertical class="mx-3 hidden md:inline"/>
+        {{-- <flux:separator vertical class="mx-3 hidden md:inline"/> --}}
         <div class="flex gap-3 items-center">
             <flux:button x-data x-on:click="$flux.dark = ! $flux.dark" variant="subtle" icon:trailing="moon" size="sm"></flux:button>                
             
@@ -41,7 +42,8 @@ new class extends Component
             <flux:sidebar.collapse class="in-data-flux-sidebar-on-desktop:not-in-data-flux-sidebar-collapsed-desktop:-mr-2" />
         </flux:sidebar.header>
         <flux:sidebar.nav class="flex flex-col gap-3">
-            <flux:button icon:trailing="pencil-square" size="sm" variant="primary" color="emerald" class="" href='/create' wire:navigate >Tulis</flux:button>
+            {{-- <flux:button icon:trailing="pencil-square" size="sm" variant="primary" color="emerald" class="" href='/create' wire:navigate >Tulis</flux:button> --}}
+            <flux:sidebar.item icon="pencil-square" href="/create"  wire:navigate>Tulis</flux:sidebar.item>
             <flux:sidebar.item icon="home" href="/" current wire:navigate>Beranda</flux:sidebar.item>
         </flux:sidebar.nav>
         <flux:sidebar.spacer />
