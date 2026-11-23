@@ -1,6 +1,7 @@
 
 # LITERACY
 Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro 
+
 Terinspirasi dari [Medium](https://medium.com/)
 
 ## Fitur 
