@@ -7,6 +7,8 @@ use App\Livewire\Pages\Main\Create;
 use App\Livewire\Pages\Main\Update;
 use App\Livewire\Pages\Main\Trash;
 use App\Livewire\Pages\Main\ReadArticle;
+use App\Livewire\Pages\Main\Feedback;
+
 use App\Livewire\Pages\Auth\Login;
 use App\Livewire\Pages\Auth\Register;
 use App\Livewire\Pages\Auth\ChangePassword;
@@ -18,6 +20,7 @@ use App\Http\Middleware\AuthRequire;
 use App\Http\Middleware\EnsureHasAuth;
 
 Route::get('/', Home::class)->name('home');
+Route::get('/feedback', Feedback::class)->name('feedback');
 Route::get('/article/{slug}', ReadArticle::class)->name('read');
 
 Route::middleware([EnsureHasAuth::class])->group(function () {

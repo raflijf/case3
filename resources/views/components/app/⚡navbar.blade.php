@@ -10,12 +10,13 @@ new class extends Component
 
 <div class="h-15">
       <flux:header container class="bg-zinc-50 dark:bg-zinc-900 border-b border-zinc-200 dark:border-zinc-700 flex items-center fixed w-full">
-        <flux:sidebar.toggle class="md:hidden" icon="bars-2" inset="left" />
+        <flux:sidebar.toggle class="sm:hidden" icon="bars-2" inset="left" />
         <flux:brand href="#" logo="{{ asset('images/logo.jpg') }}" name="Literacy" class=" " />
         <flux:spacer/>
         <flux:navbar class="me-4  min-md:flex gap-3">
-            <flux:navbar.item icon="home" href="{{ route('home', request()->only('page'))  }}" wire:navigate  class="max-md:hidden"/>
-            <flux:navbar.item icon="pencil-square" href="/create" wire:navigate  class="max-md:hidden"/>
+            <flux:navbar.item icon="home" href="{{ route('home', request()->only('page'))  }}" wire:navigate  class="max-sm:hidden"/>
+            <flux:navbar.item icon="pencil-square" href="/create" wire:navigate  class="max-sm:hidden"/>
+            <flux:navbar.item icon="chat-bubble-left" href="/feedback" wire:navigate  class="max-sm:hidden"/>
         </flux:navbar>
         <div class="flex gap-3 items-center">
             <flux:button x-data x-on:click="$flux.dark = ! $flux.dark" variant="subtle" icon:trailing="moon" size="sm"></flux:button>                
@@ -30,7 +31,7 @@ new class extends Component
         </div>
     </flux:header>
     
-    <flux:sidebar sticky collapsible="mobile" class="lg:hidden bg-zinc-50 dark:bg-zinc-900 border-r border-zinc-200 dark:border-zinc-700">
+    <flux:sidebar sticky collapsible="mobile" class="sm:hidden bg-zinc-50 dark:bg-zinc-900 border-r border-zinc-200 dark:border-zinc-700">
         <flux:sidebar.header>
             <flux:sidebar.brand
                 href="#"
@@ -40,8 +41,9 @@ new class extends Component
             <flux:sidebar.collapse class="in-data-flux-sidebar-on-desktop:not-in-data-flux-sidebar-collapsed-desktop:-mr-2" />
         </flux:sidebar.header>
         <flux:sidebar.nav class="flex flex-col gap-3">
+            <flux:sidebar.item icon="home" href="/"  wire:navigate>Beranda</flux:sidebar.item>
             <flux:sidebar.item icon="pencil-square" href="/create"  wire:navigate>Tulis</flux:sidebar.item>
-            <flux:sidebar.item icon="home" href="/" current wire:navigate>Beranda</flux:sidebar.item>
+            <flux:sidebar.item icon="chat-bubble-left" href="/feedback"  wire:navigate>Masukan</flux:sidebar.item>
         </flux:sidebar.nav>
         <flux:sidebar.spacer />
         <flux:sidebar.nav>
