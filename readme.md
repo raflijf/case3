@@ -79,6 +79,9 @@ Terinspirasi dari [Medium](https://medium.com/)
 ## Why supabase storage?
 oleh di dalam case itu tertulis "port forwading" jadi saya pakai cloud agar tidak memenuhi memory  device saya ketika orang lain mengakses web itu untuk mengupload gambar, 
 
+## Note
+- oleh auth di App ini dibuat dari nol/native untuk method global user bawaan `auth()->user()` diganti jadi  `me()`
+
 (klo ada error boleh kirim email raflijf7@gmail.com atau chat wa (kalau ada 😁😁😁))
 
 
