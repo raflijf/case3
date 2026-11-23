@@ -1,8 +1,6 @@
 
 # LITERACY
 Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro 
-
-## UI Design 
 Terinspirasi dari [Medium](https://medium.com/)
 
 ## Fitur 
