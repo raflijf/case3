@@ -77,6 +77,6 @@ Tugas case 3 dasar komputer dan pemrograman | Teknik Elektro
 ## Why supabase storage?
 oleh di dalam case itu tertulis "port forwading" jadi saya pakai cloud agar tidak memenuhi memory  device saya ketika orang lain mengakses web itu untuk mengupload gambar, 
 
-(klo ada error atur sendiri aja 😁😁😁 atau kirim email raflijf7@gmail.com atau chat wa (kalau ada 😁😁😁))
+(klo ada error boleh kirim email raflijf7@gmail.com atau chat wa (kalau ada 😁😁😁))
 
 
