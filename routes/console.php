@@ -12,10 +12,10 @@ use Illuminate\Support\Facades\Storage;
 
 // Update Quotes 
 Schedule::call(function () {
-    $data = json_decode(
+     $data = json_decode(
         file_get_contents(resource_path('data/quotes.json')),
         true
     );
     $quote = $data[array_rand($data)];
-    Cache::put('userQuote', $quote,  $seconds = 60 * 60 * 24);
-})->everySecond();
+    Cache::put('anonUserQoute', $quote,  $seconds = 60 * 60 * 24);
+})->dailyAt('00:00');
