@@ -50,7 +50,7 @@ Terinspirasi dari [Medium](https://medium.com/)
 
 - copy .env.example -> .env
 
-- sesuaikan config database
+- sesuaikan config database, Mail, dan supabase storage
 
 - Buat App key
 
