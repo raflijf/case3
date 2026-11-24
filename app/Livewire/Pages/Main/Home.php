@@ -18,7 +18,7 @@ class Home extends Component
             'by' => '-'
         ];
 
-        $this->quotes = Cache::get('anonUserQoute') ?? $default_quotes ;
+        $this->quotes = Cache::get('useQuote') ?? $default_quotes ;
     }
 
     public function mount():void {

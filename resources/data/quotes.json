@@ -1,0 +1,1297 @@
+[
+  {
+    "id": 1,
+    "words": "It always seems impossible until it is done.",
+    "by": "Nelson Mandela"
+  },
+  {
+    "id": 2,
+    "words": "Education is the most powerful weapon which you can use to change the world.",
+    "by": "Nelson Mandela"
+  },
+  {
+    "id": 3,
+    "words": "I learned that courage was not the absence of fear, but the triumph over it.",
+    "by": "Nelson Mandela"
+  },
+  {
+    "id": 4,
+    "words": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "by": "Mahatma Gandhi"
+  },
+  {
+    "id": 5,
+    "words": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "by": "Mahatma Gandhi"
+  },
+  {
+    "id": 6,
+    "words": "The best way to find yourself is to lose yourself in the service of others.",
+    "by": "Mahatma Gandhi"
+  },
+  {
+    "id": 7,
+    "words": "Where there is love there is life.",
+    "by": "Mahatma Gandhi"
+  },
+  {
+    "id": 8,
+    "words": "Injustice anywhere is a threat to justice everywhere.",
+    "by": "Martin Luther King Jr."
+  },
+  {
+    "id": 9,
+    "words": "Darkness cannot drive out darkness; only light can do that.",
+    "by": "Martin Luther King Jr."
+  },
+  {
+    "id": 10,
+    "words": "The time is always right to do what is right.",
+    "by": "Martin Luther King Jr."
+  },
+  {
+    "id": 11,
+    "words": "Faith is taking the first step even when you don't see the whole staircase.",
+    "by": "Martin Luther King Jr."
+  },
+  {
+    "id": 12,
+    "words": "Our lives begin to end the day we become silent about things that matter.",
+    "by": "Martin Luther King Jr."
+  },
+  {
+    "id": 13,
+    "words": "Imagination is more important than knowledge.",
+    "by": "Albert Einstein"
+  },
+  {
+    "id": 14,
+    "words": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "by": "Albert Einstein"
+  },
+  {
+    "id": 15,
+    "words": "The important thing is not to stop questioning.",
+    "by": "Albert Einstein"
+  },
+  {
+    "id": 16,
+    "words": "Try not to become a man of success, but rather try to become a man of value.",
+    "by": "Albert Einstein"
+  },
+  {
+    "id": 17,
+    "words": "A person who never made a mistake never tried anything new.",
+    "by": "Albert Einstein"
+  },
+  {
+    "id": 18,
+    "words": "Stay hungry, stay foolish.",
+    "by": "Steve Jobs"
+  },
+  {
+    "id": 19,
+    "words": "Your time is limited, so don't waste it living someone else's life.",
+    "by": "Steve Jobs"
+  },
+  {
+    "id": 20,
+    "words": "Innovation distinguishes between a leader and a follower.",
+    "by": "Steve Jobs"
+  },
+  {
+    "id": 21,
+    "words": "Design is not just what it looks like and feels like. Design is how it works.",
+    "by": "Steve Jobs"
+  },
+  {
+    "id": 22,
+    "words": "The only way to do great work is to love what you do.",
+    "by": "Steve Jobs"
+  },
+  {
+    "id": 23,
+    "words": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
+  },
+  {
+    "id": 24,
+    "words": "Never, never, never give up.",
+    "by": "Winston Churchill"
+  },
+  {
+    "id": 25,
+    "words": "If you're going through hell, keep going.",
+    "by": "Winston Churchill"
+  },
+  {
+    "id": 26,
+    "words": "To improve is to change; to be perfect is to change often.",
+    "by": "Winston Churchill"
+  },
+  {
+    "id": 27,
+    "words": "We make a living by what we get, but we make a life by what we give.",
+    "by": "Winston Churchill"
+  },
+  {
+    "id": 28,
+    "words": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
+  },
+  {
+    "id": 29,
+    "words": "Nearly all men can stand adversity, but if you want to test a man's character, give him power.",
+    "by": "Abraham Lincoln"
+  },
+  {
+    "id": 30,
+    "words": "I am a slow walker, but I never walk back.",
+    "by": "Abraham Lincoln"
+  },
+  {
+    "id": 31,
+    "words": "A house divided against itself cannot stand.",
+    "by": "Abraham Lincoln"
+  },
+  {
+    "id": 32,
+    "words": "The only thing we have to fear is fear itself.",
+    "by": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 33,
+    "words": "Believe you can and you're halfway there.",
+    "by": "Theodore Roosevelt"
+  },
+  {
+    "id": 34,
+    "words": "Do what you can, with what you have, where you are.",
+    "by": "Theodore Roosevelt"
+  },
+  {
+    "id": 35,
+    "words": "No one can make you feel inferior without your consent.",
+    "by": "Eleanor Roosevelt"
+  },
+  {
+    "id": 36,
+    "words": "The future belongs to those who believe in the beauty of their dreams.",
+    "by": "Eleanor Roosevelt"
+  },
+  {
+    "id": 37,
+    "words": "You must do the thing you think you cannot do.",
+    "by": "Eleanor Roosevelt"
+  },
+  {
+    "id": 38,
+    "words": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "by": "Will Durant"
+  },
+  {
+    "id": 39,
+    "words": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+    "by": "Aristotle"
+  },
+  {
+    "id": 40,
+    "words": "Knowing yourself is the beginning of all wisdom.",
+    "by": "Aristotle"
+  },
+  {
+    "id": 41,
+    "words": "Educating the mind without educating the heart is no education at all.",
+    "by": "Aristotle"
+  },
+  {
+    "id": 42,
+    "words": "The unexamined life is not worth living.",
+    "by": "Socrates"
+  },
+  {
+    "id": 43,
+    "words": "I know that I know nothing.",
+    "by": "Socrates"
+  },
+  {
+    "id": 44,
+    "words": "Wisdom begins in wonder.",
+    "by": "Socrates"
+  },
+  {
+    "id": 45,
+    "words": "The beginning is the most important part of the work.",
+    "by": "Plato"
+  },
+  {
+    "id": 46,
+    "words": "Courage is knowing what not to fear.",
+    "by": "Plato"
+  },
+  {
+    "id": 47,
+    "words": "Wise men speak because they have something to say; fools because they have to say something.",
+    "by": "Plato"
+  },
+  {
+    "id": 48,
+    "words": "It does not matter how slowly you go as long as you do not stop.",
+    "by": "Confucius"
+  },
+  {
+    "id": 49,
+    "words": "Real knowledge is to know the extent of one's ignorance.",
+    "by": "Confucius"
+  },
+  {
+    "id": 50,
+    "words": "Our greatest glory is not in never falling, but in rising every time we fall.",
+    "by": "Confucius"
+  },
+  {
+    "id": 51,
+    "words": "He who learns but does not think is lost.",
+    "by": "Confucius"
+  },
+  {
+    "id": 52,
+    "words": "The man who moves a mountain begins by carrying away small stones.",
+    "by": "Confucius"
+  },
+  {
+    "id": 53,
+    "words": "Everything has beauty, but not everyone sees it.",
+    "by": "Confucius"
+  },
+  {
+    "id": 54,
+    "words": "A journey of a thousand miles begins with a single step.",
+    "by": "Lao Tzu"
+  },
+  {
+    "id": 55,
+    "words": "Knowing others is intelligence; knowing yourself is true wisdom.",
+    "by": "Lao Tzu"
+  },
+  {
+    "id": 56,
+    "words": "When I let go of what I am, I become what I might be.",
+    "by": "Lao Tzu"
+  },
+  {
+    "id": 57,
+    "words": "Nature does not hurry, yet everything is accomplished.",
+    "by": "Lao Tzu"
+  },
+  {
+    "id": 58,
+    "words": "Peace comes from within. Do not seek it without.",
+    "by": "Buddha"
+  },
+  {
+    "id": 59,
+    "words": "Three things cannot be long hidden: the sun, the moon, and the truth.",
+    "by": "Buddha"
+  },
+  {
+    "id": 60,
+    "words": "The mind is everything. What you think you become.",
+    "by": "Buddha"
+  },
+  {
+    "id": 61,
+    "words": "The biggest adventure you can take is to live the life of your dreams.",
+    "by": "Oprah Winfrey"
+  },
+  {
+    "id": 62,
+    "words": "Turn your wounds into wisdom.",
+    "by": "Oprah Winfrey"
+  },
+  {
+    "id": 63,
+    "words": "Be thankful for what you have; you'll end up having more.",
+    "by": "Oprah Winfrey"
+  },
+  {
+    "id": 64,
+    "words": "There is no greater agony than bearing an untold story inside you.",
+    "by": "Maya Angelou"
+  },
+  {
+    "id": 65,
+    "words": "If you don't like something, change it. If you can't change it, change your attitude.",
+    "by": "Maya Angelou"
+  },
+  {
+    "id": 66,
+    "words": "Nothing will work unless you do.",
+    "by": "Maya Angelou"
+  },
+  {
+    "id": 67,
+    "words": "We may encounter many defeats but we must not be defeated.",
+    "by": "Maya Angelou"
+  },
+  {
+    "id": 68,
+    "words": "The secret of getting ahead is getting started.",
+    "by": "Mark Twain"
+  },
+  {
+    "id": 69,
+    "words": "The two most important days in your life are the day you are born and the day you find out why.",
+    "by": "Mark Twain"
+  },
+  {
+    "id": 70,
+    "words": "Kindness is the language which the deaf can hear and the blind can see.",
+    "by": "Mark Twain"
+  },
+  {
+    "id": 71,
+    "words": "Courage is resistance to fear, mastery of fear, not absence of fear.",
+    "by": "Mark Twain"
+  },
+  {
+    "id": 72,
+    "words": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+    "by": "Mark Twain"
+  },
+  {
+    "id": 73,
+    "words": "To thine own self be true.",
+    "by": "William Shakespeare"
+  },
+  {
+    "id": 74,
+    "words": "We know what we are, but know not what we may be.",
+    "by": "William Shakespeare"
+  },
+  {
+    "id": 75,
+    "words": "Better three hours too soon than a minute too late.",
+    "by": "William Shakespeare"
+  },
+  {
+    "id": 76,
+    "words": "Spread love everywhere you go.",
+    "by": "Mother Teresa"
+  },
+  {
+    "id": 77,
+    "words": "If you can't feed a hundred people, then feed just one.",
+    "by": "Mother Teresa"
+  },
+  {
+    "id": 78,
+    "words": "Not all of us can do great things. But we can do small things with great love.",
+    "by": "Mother Teresa"
+  },
+  {
+    "id": 79,
+    "words": "Peace begins with a smile.",
+    "by": "Mother Teresa"
+  },
+  {
+    "id": 80,
+    "words": "Happiness is not something ready made. It comes from your own actions.",
+    "by": "Dalai Lama"
+  },
+  {
+    "id": 81,
+    "words": "Be kind whenever possible. It is always possible.",
+    "by": "Dalai Lama"
+  },
+  {
+    "id": 82,
+    "words": "If you think you are too small to make a difference, try sleeping with a mosquito.",
+    "by": "Dalai Lama"
+  },
+  {
+    "id": 83,
+    "words": "All our dreams can come true, if we have the courage to pursue them.",
+    "by": "Walt Disney"
+  },
+  {
+    "id": 84,
+    "words": "The way to get started is to quit talking and begin doing.",
+    "by": "Walt Disney"
+  },
+  {
+    "id": 85,
+    "words": "It's kind of fun to do the impossible.",
+    "by": "Walt Disney"
+  },
+  {
+    "id": 86,
+    "words": "Whether you think you can, or you think you can't, you're right.",
+    "by": "Henry Ford"
+  },
+  {
+    "id": 87,
+    "words": "Coming together is a beginning; keeping together is progress; working together is success.",
+    "by": "Henry Ford"
+  },
+  {
+    "id": 88,
+    "words": "Quality means doing it right when no one is looking.",
+    "by": "Henry Ford"
+  },
+  {
+    "id": 89,
+    "words": "Failure is simply the opportunity to begin again, this time more intelligently.",
+    "by": "Henry Ford"
+  },
+  {
+    "id": 90,
+    "words": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "by": "Thomas Edison"
+  },
+  {
+    "id": 91,
+    "words": "I have not failed. I've just found 10,000 ways that won't work.",
+    "by": "Thomas Edison"
+  },
+  {
+    "id": 92,
+    "words": "Opportunity is missed by most people because it is dressed in overalls and looks like work.",
+    "by": "Thomas Edison"
+  },
+  {
+    "id": 93,
+    "words": "Success is a lousy teacher. It seduces smart people into thinking they can't lose.",
+    "by": "Bill Gates"
+  },
+  {
+    "id": 94,
+    "words": "Your most unhappy customers are your greatest source of learning.",
+    "by": "Bill Gates"
+  },
+  {
+    "id": 95,
+    "words": "If you can't make it good, at least make it look good.",
+    "by": "Bill Gates"
+  },
+  {
+    "id": 96,
+    "words": "Price is what you pay. Value is what you get.",
+    "by": "Warren Buffett"
+  },
+  {
+    "id": 97,
+    "words": "Risk comes from not knowing what you're doing.",
+    "by": "Warren Buffett"
+  },
+  {
+    "id": 98,
+    "words": "It takes 20 years to build a reputation and five minutes to ruin it.",
+    "by": "Warren Buffett"
+  },
+  {
+    "id": 99,
+    "words": "Be fearful when others are greedy, and greedy when others are fearful.",
+    "by": "Warren Buffett"
+  },
+  {
+    "id": 100,
+    "words": "When something is important enough, you do it even if the odds are not in your favor.",
+    "by": "Elon Musk"
+  },
+  {
+    "id": 101,
+    "words": "Failure is an option here. If things are not failing, you are not innovating enough.",
+    "by": "Elon Musk"
+  },
+  {
+    "id": 102,
+    "words": "The biggest risk is not taking any risk.",
+    "by": "Mark Zuckerberg"
+  },
+  {
+    "id": 103,
+    "words": "Move fast and break things.",
+    "by": "Mark Zuckerberg"
+  },
+  {
+    "id": 104,
+    "words": "If you double the number of experiments you do per year, you're going to double your inventiveness.",
+    "by": "Jeff Bezos"
+  },
+  {
+    "id": 105,
+    "words": "Always deliver more than expected.",
+    "by": "Larry Page"
+  },
+  {
+    "id": 106,
+    "words": "Impossible is just a big word thrown around by small men who find it easier to live in the world they've been given.",
+    "by": "Muhammad Ali"
+  },
+  {
+    "id": 107,
+    "words": "Service to others is the rent you pay for your room here on earth.",
+    "by": "Muhammad Ali"
+  },
+  {
+    "id": 108,
+    "words": "He who is not courageous enough to take risks will accomplish nothing in life.",
+    "by": "Muhammad Ali"
+  },
+  {
+    "id": 109,
+    "words": "I've missed more than 9000 shots in my career. I've failed over and over and over again in my life. And that is why I succeed.",
+    "by": "Michael Jordan"
+  },
+  {
+    "id": 110,
+    "words": "Talent wins games, but teamwork and intelligence win championships.",
+    "by": "Michael Jordan"
+  },
+  {
+    "id": 111,
+    "words": "Some people want it to happen, some wish it would happen, others make it happen.",
+    "by": "Michael Jordan"
+  },
+  {
+    "id": 112,
+    "words": "Be water, my friend.",
+    "by": "Bruce Lee"
+  },
+  {
+    "id": 113,
+    "words": "Knowing is not enough, we must apply. Willing is not enough, we must do.",
+    "by": "Bruce Lee"
+  },
+  {
+    "id": 114,
+    "words": "Absorb what is useful, discard what is not, add what is uniquely your own.",
+    "by": "Bruce Lee"
+  },
+  {
+    "id": 115,
+    "words": "Success is not the key to happiness. Happiness is the key to success.",
+    "by": "Albert Schweitzer"
+  },
+  {
+    "id": 116,
+    "words": "Alone we can do so little; together we can do so much.",
+    "by": "Helen Keller"
+  },
+  {
+    "id": 117,
+    "words": "The best and most beautiful things in the world cannot be seen or even touched. They must be felt with the heart.",
+    "by": "Helen Keller"
+  },
+  {
+    "id": 118,
+    "words": "Life is either a daring adventure or nothing at all.",
+    "by": "Helen Keller"
+  },
+  {
+    "id": 119,
+    "words": "Nothing in life is to be feared, it is only to be understood.",
+    "by": "Marie Curie"
+  },
+  {
+    "id": 120,
+    "words": "Be less curious about people and more curious about ideas.",
+    "by": "Marie Curie"
+  },
+  {
+    "id": 121,
+    "words": "If I have seen further it is by standing on the shoulders of Giants.",
+    "by": "Isaac Newton"
+  },
+  {
+    "id": 122,
+    "words": "Tact is the art of making a point without making an enemy.",
+    "by": "Isaac Newton"
+  },
+  {
+    "id": 123,
+    "words": "All truths are easy to understand once they are discovered; the point is to discover them.",
+    "by": "Galileo Galilei"
+  },
+  {
+    "id": 124,
+    "words": "You cannot teach a man anything; you can only help him find it within himself.",
+    "by": "Galileo Galilei"
+  },
+  {
+    "id": 125,
+    "words": "Intelligence is the ability to adapt to change.",
+    "by": "Stephen Hawking"
+  },
+  {
+    "id": 126,
+    "words": "Look up at the stars and not down at your feet.",
+    "by": "Stephen Hawking"
+  },
+  {
+    "id": 127,
+    "words": "However difficult life may seem, there is always something you can do and succeed at.",
+    "by": "Stephen Hawking"
+  },
+  {
+    "id": 128,
+    "words": "Somewhere, something incredible is waiting to be known.",
+    "by": "Carl Sagan"
+  },
+  {
+    "id": 129,
+    "words": "Extraordinary claims require extraordinary evidence.",
+    "by": "Carl Sagan"
+  },
+  {
+    "id": 130,
+    "words": "Imagination will often carry us to worlds that never were. But without it we go nowhere.",
+    "by": "Carl Sagan"
+  },
+  {
+    "id": 131,
+    "words": "Science is a way of thinking much more than it is a body of knowledge.",
+    "by": "Carl Sagan"
+  },
+  {
+    "id": 132,
+    "words": "A man who dares to waste one hour of time has not discovered the value of life.",
+    "by": "Charles Darwin"
+  },
+  {
+    "id": 133,
+    "words": "Learning never exhausts the mind.",
+    "by": "Leonardo da Vinci"
+  },
+  {
+    "id": 134,
+    "words": "Simplicity is the ultimate sophistication.",
+    "by": "Leonardo da Vinci"
+  },
+  {
+    "id": 135,
+    "words": "Art is never finished, only abandoned.",
+    "by": "Leonardo da Vinci"
+  },
+  {
+    "id": 136,
+    "words": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+    "by": "Pablo Picasso"
+  },
+  {
+    "id": 137,
+    "words": "Inspiration exists, but it has to find you working.",
+    "by": "Pablo Picasso"
+  },
+  {
+    "id": 138,
+    "words": "Great things are done by a series of small things brought together.",
+    "by": "Vincent van Gogh"
+  },
+  {
+    "id": 139,
+    "words": "I dream my painting and I paint my dream.",
+    "by": "Vincent van Gogh"
+  },
+  {
+    "id": 140,
+    "words": "If you hear a voice within you say \"you cannot paint,\" then by all means paint.",
+    "by": "Vincent van Gogh"
+  },
+  {
+    "id": 141,
+    "words": "I paint flowers so they will not die.",
+    "by": "Frida Kahlo"
+  },
+  {
+    "id": 142,
+    "words": "Feet, what do I need you for when I have wings to fly?",
+    "by": "Frida Kahlo"
+  },
+  {
+    "id": 143,
+    "words": "The wound is the place where the Light enters you.",
+    "by": "Rumi"
+  },
+  {
+    "id": 144,
+    "words": "What you seek is seeking you.",
+    "by": "Rumi"
+  },
+  {
+    "id": 145,
+    "words": "Your pain is the breaking of the shell that encloses your understanding.",
+    "by": "Kahlil Gibran"
+  },
+  {
+    "id": 146,
+    "words": "Judge a man by his questions rather than by his answers.",
+    "by": "Voltaire"
+  },
+  {
+    "id": 147,
+    "words": "Doubt is not a pleasant condition, but certainty is absurd.",
+    "by": "Voltaire"
+  },
+  {
+    "id": 148,
+    "words": "He who has a why to live can bear almost any how.",
+    "by": "Friedrich Nietzsche"
+  },
+  {
+    "id": 149,
+    "words": "Without music, life would be a mistake.",
+    "by": "Friedrich Nietzsche"
+  },
+  {
+    "id": 150,
+    "words": "You must have chaos within you to give birth to a dancing star.",
+    "by": "Friedrich Nietzsche"
+  },
+  {
+    "id": 151,
+    "words": "I think, therefore I am.",
+    "by": "René Descartes"
+  },
+  {
+    "id": 152,
+    "words": "Dare to know! Have the courage to use your own understanding.",
+    "by": "Immanuel Kant"
+  },
+  {
+    "id": 153,
+    "words": "Man is condemned to be free.",
+    "by": "Jean-Paul Sartre"
+  },
+  {
+    "id": 154,
+    "words": "In the midst of winter, I found there was, within me, an invincible summer.",
+    "by": "Albert Camus"
+  },
+  {
+    "id": 155,
+    "words": "Even the darkest night will end and the sun will rise.",
+    "by": "Victor Hugo"
+  },
+  {
+    "id": 156,
+    "words": "He who opens a school door, closes a prison.",
+    "by": "Victor Hugo"
+  },
+  {
+    "id": 157,
+    "words": "The mystery of human existence lies not in just staying alive, but in finding something to live for.",
+    "by": "Fyodor Dostoevsky"
+  },
+  {
+    "id": 158,
+    "words": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+    "by": "Leo Tolstoy"
+  },
+  {
+    "id": 159,
+    "words": "The two most powerful warriors are patience and time.",
+    "by": "Leo Tolstoy"
+  },
+  {
+    "id": 160,
+    "words": "Be yourself; everyone else is already taken.",
+    "by": "Oscar Wilde"
+  },
+  {
+    "id": 161,
+    "words": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "by": "Oscar Wilde"
+  },
+  {
+    "id": 162,
+    "words": "We are all in the gutter, but some of us are looking at the stars.",
+    "by": "Oscar Wilde"
+  },
+  {
+    "id": 163,
+    "words": "The world breaks everyone, and afterward, many are strong at the broken places.",
+    "by": "Ernest Hemingway"
+  },
+  {
+    "id": 164,
+    "words": "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all.",
+    "by": "J.K. Rowling"
+  },
+  {
+    "id": 165,
+    "words": "Rock bottom became the solid foundation on which I rebuilt my life.",
+    "by": "J.K. Rowling"
+  },
+  {
+    "id": 166,
+    "words": "Whatever the mind can conceive and believe, it can achieve.",
+    "by": "Napoleon Hill"
+  },
+  {
+    "id": 167,
+    "words": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.",
+    "by": "Dale Carnegie"
+  },
+  {
+    "id": 168,
+    "words": "The main thing is to keep the main thing the main thing.",
+    "by": "Stephen Covey"
+  },
+  {
+    "id": 169,
+    "words": "Begin with the end in mind.",
+    "by": "Stephen Covey"
+  },
+  {
+    "id": 170,
+    "words": "Efficiency is doing things right; effectiveness is doing the right things.",
+    "by": "Peter Drucker"
+  },
+  {
+    "id": 171,
+    "words": "An investment in knowledge pays the best interest.",
+    "by": "Benjamin Franklin"
+  },
+  {
+    "id": 172,
+    "words": "Well done is better than well said.",
+    "by": "Benjamin Franklin"
+  },
+  {
+    "id": 173,
+    "words": "By failing to prepare, you are preparing to fail.",
+    "by": "Benjamin Franklin"
+  },
+  {
+    "id": 174,
+    "words": "Lost time is never found again.",
+    "by": "Benjamin Franklin"
+  },
+  {
+    "id": 175,
+    "words": "It is better to offer no excuse than a bad one.",
+    "by": "George Washington"
+  },
+  {
+    "id": 176,
+    "words": "Honesty is the first chapter in the book of wisdom.",
+    "by": "Thomas Jefferson"
+  },
+  {
+    "id": 177,
+    "words": "In matters of style, swim with the current; in matters of principle, stand like a rock.",
+    "by": "Thomas Jefferson"
+  },
+  {
+    "id": 178,
+    "words": "Change will not come if we wait for some other person or some other time.",
+    "by": "Barack Obama"
+  },
+  {
+    "id": 179,
+    "words": "If you're walking down the right path and you're willing to keep walking, eventually you'll make progress.",
+    "by": "Barack Obama"
+  },
+  {
+    "id": 180,
+    "words": "Ask not what your country can do for you; ask what you can do for your country.",
+    "by": "John F. Kennedy"
+  },
+  {
+    "id": 181,
+    "words": "Change is the law of life. And those who look only to the past or present are certain to miss the future.",
+    "by": "John F. Kennedy"
+  },
+  {
+    "id": 182,
+    "words": "Leadership and learning are indispensable to each other.",
+    "by": "John F. Kennedy"
+  },
+  {
+    "id": 183,
+    "words": "One child, one teacher, one book, one pen can change the world.",
+    "by": "Malala Yousafzai"
+  },
+  {
+    "id": 184,
+    "words": "When the whole world is silent, even one voice becomes powerful.",
+    "by": "Malala Yousafzai"
+  },
+  {
+    "id": 185,
+    "words": "I have learned over the years that when one's mind is made up, this diminishes fear.",
+    "by": "Rosa Parks"
+  },
+  {
+    "id": 186,
+    "words": "The future belongs to those who prepare for it today.",
+    "by": "Malcolm X"
+  },
+  {
+    "id": 187,
+    "words": "If there is no struggle, there is no progress.",
+    "by": "Frederick Douglass"
+  },
+  {
+    "id": 188,
+    "words": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+    "by": "Anne Frank"
+  },
+  {
+    "id": 189,
+    "words": "In spite of everything, I still believe that people are really good at heart.",
+    "by": "Anne Frank"
+  },
+  {
+    "id": 190,
+    "words": "Beri aku seribu orang tua, niscaya akan kucabut Semeru dari akarnya. Beri aku sepuluh pemuda, niscaya akan kuguncangkan dunia.",
+    "by": "Soekarno"
+  },
+  {
+    "id": 191,
+    "words": "Perjuanganku lebih mudah karena mengusir penjajah, perjuanganmu akan lebih sulit karena melawan bangsamu sendiri.",
+    "by": "Soekarno"
+  },
+  {
+    "id": 192,
+    "words": "Aku rela dipenjara asalkan bersama buku, karena dengan buku aku bebas.",
+    "by": "Mohammad Hatta"
+  },
+  {
+    "id": 193,
+    "words": "Ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani.",
+    "by": "Ki Hajar Dewantara"
+  },
+  {
+    "id": 194,
+    "words": "Setiap orang menjadi guru, setiap rumah menjadi sekolah.",
+    "by": "Ki Hajar Dewantara"
+  },
+  {
+    "id": 195,
+    "words": "Orang boleh pandai setinggi langit, tapi selama ia tidak menulis, ia akan hilang di dalam masyarakat dan dari sejarah. Menulis adalah bekerja untuk keabadian.",
+    "by": "Pramoedya Ananta Toer"
+  },
+  {
+    "id": 196,
+    "words": "Seorang terpelajar harus sudah berbuat adil sejak dalam pikiran, apalagi dalam perbuatan.",
+    "by": "Pramoedya Ananta Toer"
+  },
+  {
+    "id": 197,
+    "words": "Tidak penting apa pun agama atau sukumu, kalau kamu bisa melakukan sesuatu yang baik untuk semua orang, orang tidak pernah tanya apa agamamu.",
+    "by": "Abdurrahman Wahid (Gus Dur)"
+  },
+  {
+    "id": 198,
+    "words": "Sekali berarti, sudah itu mati.",
+    "by": "Chairil Anwar"
+  },
+  {
+    "id": 199,
+    "words": "Terbentur, terbentur, terbentuk.",
+    "by": "Tan Malaka"
+  },
+  {
+    "id": 200,
+    "words": "Habis gelap terbitlah terang.",
+    "by": "R.A. Kartini"
+  },
+  {
+    "id": 201,
+    "words": "Impossible is a word to be found only in the dictionary of fools.",
+    "by": "Napoleon Bonaparte"
+  },
+  {
+    "id": 202,
+    "words": "I came, I saw, I conquered.",
+    "by": "Julius Caesar"
+  },
+  {
+    "id": 203,
+    "words": "In the midst of chaos, there is also opportunity.",
+    "by": "Sun Tzu"
+  },
+  {
+    "id": 204,
+    "words": "Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win.",
+    "by": "Sun Tzu"
+  },
+  {
+    "id": 205,
+    "words": "Know the enemy and know yourself; in a hundred battles you will never be in peril.",
+    "by": "Sun Tzu"
+  },
+  {
+    "id": 206,
+    "words": "You have power over your mind, not outside events. Realize this, and you will find strength.",
+    "by": "Marcus Aurelius"
+  },
+  {
+    "id": 207,
+    "words": "The happiness of your life depends upon the quality of your thoughts.",
+    "by": "Marcus Aurelius"
+  },
+  {
+    "id": 208,
+    "words": "The impediment to action advances action. What stands in the way becomes the way.",
+    "by": "Marcus Aurelius"
+  },
+  {
+    "id": 209,
+    "words": "Luck is what happens when preparation meets opportunity.",
+    "by": "Seneca"
+  },
+  {
+    "id": 210,
+    "words": "We suffer more often in imagination than in reality.",
+    "by": "Seneca"
+  },
+  {
+    "id": 211,
+    "words": "It is not that we have a short time to live, but that we waste a lot of it.",
+    "by": "Seneca"
+  },
+  {
+    "id": 212,
+    "words": "It's not what happens to you, but how you react to it that matters.",
+    "by": "Epictetus"
+  },
+  {
+    "id": 213,
+    "words": "First say to yourself what you would be; and then do what you have to do.",
+    "by": "Epictetus"
+  },
+  {
+    "id": 214,
+    "words": "A room without books is like a body without a soul.",
+    "by": "Marcus Tullius Cicero"
+  },
+  {
+    "id": 215,
+    "words": "Give me a place to stand, and I shall move the earth.",
+    "by": "Archimedes"
+  },
+  {
+    "id": 216,
+    "words": "Let food be thy medicine and medicine be thy food.",
+    "by": "Hippocrates"
+  },
+  {
+    "id": 217,
+    "words": "No man ever steps in the same river twice.",
+    "by": "Heraclitus"
+  },
+  {
+    "id": 218,
+    "words": "The present is theirs; the future, for which I really worked, is mine.",
+    "by": "Nikola Tesla"
+  },
+  {
+    "id": 219,
+    "words": "When one door closes, another opens.",
+    "by": "Alexander Graham Bell"
+  },
+  {
+    "id": 220,
+    "words": "Go confidently in the direction of your dreams! Live the life you've imagined.",
+    "by": "Henry David Thoreau"
+  },
+  {
+    "id": 221,
+    "words": "Nothing great was ever achieved without enthusiasm.",
+    "by": "Ralph Waldo Emerson"
+  },
+  {
+    "id": 222,
+    "words": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "by": "Ralph Waldo Emerson"
+  },
+  {
+    "id": 223,
+    "words": "Keep your face always toward the sunshine, and shadows will fall behind you.",
+    "by": "Walt Whitman"
+  },
+  {
+    "id": 224,
+    "words": "In three words I can sum up everything I've learned about life: it goes on.",
+    "by": "Robert Frost"
+  },
+  {
+    "id": 225,
+    "words": "A day without laughter is a day wasted.",
+    "by": "Charlie Chaplin"
+  },
+  {
+    "id": 226,
+    "words": "Life is a tragedy when seen in close-up, but a comedy in long-shot.",
+    "by": "Charlie Chaplin"
+  },
+  {
+    "id": 227,
+    "words": "Nothing is impossible, the word itself says \"I'm possible\"!",
+    "by": "Audrey Hepburn"
+  },
+  {
+    "id": 228,
+    "words": "The most courageous act is still to think for yourself. Aloud.",
+    "by": "Coco Chanel"
+  },
+  {
+    "id": 229,
+    "words": "Never give up. Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine.",
+    "by": "Jack Ma"
+  },
+  {
+    "id": 230,
+    "words": "If you're offered a seat on a rocket ship, don't ask what seat! Just get on.",
+    "by": "Sheryl Sandberg"
+  },
+  {
+    "id": 231,
+    "words": "People don't buy what you do; they buy why you do it.",
+    "by": "Simon Sinek"
+  },
+  {
+    "id": 232,
+    "words": "Vulnerability is not weakness. It is our greatest measure of courage.",
+    "by": "Brené Brown"
+  },
+  {
+    "id": 233,
+    "words": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
+  },
+  {
+    "id": 234,
+    "words": "You don't have to be great to start, but you have to start to be great.",
+    "by": "Zig Ziglar"
+  },
+  {
+    "id": 235,
+    "words": "It's not whether you get knocked down, it's whether you get up.",
+    "by": "Vince Lombardi"
+  },
+  {
+    "id": 236,
+    "words": "Never let the fear of striking out keep you from playing the game.",
+    "by": "Babe Ruth"
+  },
+  {
+    "id": 237,
+    "words": "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing.",
+    "by": "Pelé"
+  },
+  {
+    "id": 238,
+    "words": "I really think a champion is defined not by their wins but by how they can recover when they fall.",
+    "by": "Serena Williams"
+  },
+  {
+    "id": 239,
+    "words": "Start where you are. Use what you have. Do what you can.",
+    "by": "Arthur Ashe"
+  },
+  {
+    "id": 240,
+    "words": "You miss 100% of the shots you don't take.",
+    "by": "Wayne Gretzky"
+  },
+  {
+    "id": 241,
+    "words": "Do your little bit of good where you are; it's those little bits of good put together that overwhelm the world.",
+    "by": "Desmond Tutu"
+  },
+  {
+    "id": 242,
+    "words": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+    "by": "Viktor Frankl"
+  },
+  {
+    "id": 243,
+    "words": "Everything can be taken from a man but one thing: the last of the human freedoms, to choose one's attitude in any given set of circumstances.",
+    "by": "Viktor Frankl"
+  },
+  {
+    "id": 244,
+    "words": "I am not what happened to me, I am what I choose to become.",
+    "by": "Carl Jung"
+  },
+  {
+    "id": 245,
+    "words": "You can't cross the sea merely by standing and staring at the water.",
+    "by": "Rabindranath Tagore"
+  },
+  {
+    "id": 246,
+    "words": "Dream is not that which you see while sleeping; it is something that does not let you sleep.",
+    "by": "A.P.J. Abdul Kalam"
+  },
+  {
+    "id": 247,
+    "words": "If you want to shine like a sun, first burn like a sun.",
+    "by": "A.P.J. Abdul Kalam"
+  },
+  {
+    "id": 248,
+    "words": "Arise, awake, and stop not till the goal is reached.",
+    "by": "Swami Vivekananda"
+  },
+  {
+    "id": 249,
+    "words": "That's one small step for man, one giant leap for mankind.",
+    "by": "Neil Armstrong"
+  },
+  {
+    "id": 250,
+    "words": "The most difficult thing is the decision to act, the rest is merely tenacity.",
+    "by": "Amelia Earhart"
+  },
+  {
+    "id": 251,
+    "words": "Fortune favors the bold.",
+    "by": "Virgil"
+  },
+  {
+    "id": 252,
+    "words": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
+    "by": "Colin Powell"
+  },
+  {
+    "id": 253,
+    "words": "Fight for the things that you care about, but do it in a way that will lead others to join you.",
+    "by": "Ruth Bader Ginsburg"
+  },
+  {
+    "id": 254,
+    "words": "Business opportunities are like buses, there's always another one coming.",
+    "by": "Richard Branson"
+  },
+  {
+    "id": 255,
+    "words": "Chance favors only the prepared mind.",
+    "by": "Louis Pasteur"
+  },
+  {
+    "id": 256,
+    "words": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+    "by": "Alan Turing"
+  },
+  {
+    "id": 257,
+    "words": "The first principle is that you must not fool yourself, and you are the easiest person to fool.",
+    "by": "Richard Feynman"
+  },
+  {
+    "id": 258,
+    "words": "Don't only practice your art, but force your way into its secrets.",
+    "by": "Ludwig van Beethoven"
+  },
+  {
+    "id": 259,
+    "words": "Be the change that you wish to see in the world.",
+    "by": "Mahatma Gandhi"
+  }
+]
