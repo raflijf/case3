@@ -69,7 +69,7 @@ Terinspirasi dari [Medium](https://medium.com/)
     MAIL_FROM_NAME=Literacy
 
     #type imge storage
-    IMAGE_STORAGE=disk # disk(default) or supabase
+    IMAGE_STORE=disk # disk(default) or supabase
 
     #(OPSIONAL) jika anda pakai supabase storage
     SUPABASE_API_KEY=your-supabase-secret-key
