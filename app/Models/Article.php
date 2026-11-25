@@ -10,6 +10,7 @@ use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Attributes\Table;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Storage;
 
 use App\Models\User;
 
@@ -20,6 +21,7 @@ class Article extends Model
 {
     use softDeletes;   
 
+    
     protected function uploadToStorage($img) {
         $name = Str::uuid() . '.' . $img->extension();
 
@@ -40,6 +42,20 @@ class Article extends Model
         return $response->json();
     }
 
+    protected function saveImageToLocal($image) {
+        $path = $image->store('images', 'public');
+        return Storage::disk('public')->url($path);
+    }
+
+   
+    protected function saveImage($img) {
+        if (config('services.image_store') === 'supabase') {
+            $upload = $this->uploadToStorage($img);
+            return config('services.supabase.pablic_url').$upload['Key'];
+        }
+        return $this->saveImageToLocal($img);
+    }
+
     public function user(): BelongsTo {
         return $this->belongsTo(User::class);
     }
@@ -55,8 +71,7 @@ class Article extends Model
 
         if ($img['new']) {
             // update gambar
-            $new = $this->uploadToStorage($img['new']);
-            $data['img'] = config('services.supabase.pablic_url').$new['Key'];
+             $data['img'] = $this->saveImage($img['new']);
         } elseif ($img['remove']) {
             // hapus gambar
             $data['img'] = Null;
@@ -85,8 +100,7 @@ class Article extends Model
     public function publish($user_id, $title, $subtitle, $content, $img = null) {
         $slug = Str::of($title)->slug('-').'-'.Str::random(20);
         if ($img) {
-            $upload = $this->uploadToStorage($img);
-            $img = config('services.supabase.pablic_url').$upload['Key'];
+            $img = $this->saveImage($img);
         }
         self::create([
             'user_id' => $user_id,

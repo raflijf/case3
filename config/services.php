@@ -38,6 +38,8 @@ return [
         'api_key' => env('SUPABASE_API_KEY'),
         'upload_url' => env('SUPABASE_UPLOAD_URL'),
         'pablic_url' => env('SUPABASE_PUBLIC_URL'),
-    ]
+    ],
+    
+    'image_store' => env('IMAGE_STORE', 'supabase'),
 
 ];
