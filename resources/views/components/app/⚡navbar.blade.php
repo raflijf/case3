@@ -15,7 +15,13 @@ new class extends Component
         <flux:spacer/>
         <flux:navbar class="me-4  min-md:flex gap-3">
             <flux:navbar.item icon="home" href="{{ route('home', request()->only('page'))  }}" wire:navigate  class="max-sm:hidden"/>
-            <flux:navbar.item icon="pencil-square" href="/create" wire:navigate  class="max-sm:hidden"/>
+            @if (me()->isAuthenticated) 
+                <flux:navbar.item icon="pencil-square" href="/create" wire:navigate  class="max-sm:hidden"/>
+            @else 
+                <flux:modal.trigger name="needAuth">
+                    <flux:navbar.item icon="pencil-square" class="max-sm:hidden"/>
+                </flux:modal.trigger>
+            @endif
             <flux:navbar.item icon="chat-bubble-left" href="/feedback" wire:navigate  class="max-sm:hidden"/>
         </flux:navbar>
         <div class="flex gap-3 items-center">
@@ -27,6 +33,7 @@ new class extends Component
                 </a>
             @else 
                 <flux:button href="/login" size="sm" wire:navigate color="emerald" >Login</flux:button>
+                <flux:button href="/register" size="sm" wire:navigate variant="primary" color="emerald" class="max-sm:hidden">Register</flux:button>
             @endif 
         </div>
     </flux:header>
@@ -42,7 +49,13 @@ new class extends Component
         </flux:sidebar.header>
         <flux:sidebar.nav class="flex flex-col gap-3">
             <flux:sidebar.item icon="home" href="/"  wire:navigate>Beranda</flux:sidebar.item>
-            <flux:sidebar.item icon="pencil-square" href="/create"  wire:navigate>Tulis</flux:sidebar.item>
+            @if (me()->isAuthenticated) 
+                <flux:sidebar.item icon="pencil-square" href="/create"  wire:navigate>Tulis</flux:sidebar.item>
+            @else
+                <flux:modal.trigger name="needAuth">
+                    <flux:sidebar.item icon="pencil-square" >Tulis</flux:sidebar.item>
+                </flux:modal.trigger>
+            @endif
             <flux:sidebar.item icon="chat-bubble-left" href="/feedback"  wire:navigate>Masukan</flux:sidebar.item>
         </flux:sidebar.nav>
         <flux:sidebar.spacer />
@@ -50,4 +63,12 @@ new class extends Component
             <flux:sidebar.item icon="information-circle" href="#">Tentang Aplikasi</flux:sidebar.item>
         </flux:sidebar.nav>
     </flux:sidebar>
+
+
+    <flux:modal name="needAuth" class="min-w-[22rem]">
+        <div class="mt-7 flex flex-col gap-3">
+           <flux:button href="/register" variant="primary" color="emerald">Register</flux:button>
+           <flux:button color="emerald" href="/login" >login</flux:button>
+        </div>
+    </flux:modal>
 </div>
