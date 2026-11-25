@@ -40,6 +40,6 @@ return [
         'pablic_url' => env('SUPABASE_PUBLIC_URL'),
     ],
     
-    'image_store' => env('IMAGE_STORE', 'supabase'),
+    'image_store' => env('IMAGE_STORE', 'disk'),
 
 ];
