@@ -28,8 +28,6 @@ Terinspirasi dari [Medium](https://medium.com/)
 
 ## Limitasi
 - UI/UX masih perlu ditingkatkan
-- Query database masih cukup banyak sehingga performa aplikasi bisa menurun ketika traffic meningkat.
-(maklum deket deadline njir wkwkwkwkw)
 
 ## Instalasi
 
