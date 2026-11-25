@@ -35,7 +35,7 @@ Terinspirasi dari [Medium](https://medium.com/)
 
 - Clone repo
 
-  ```
+  ```bash
     git clone https://github.com/raflijf/case3.git
   ```
 
@@ -43,7 +43,7 @@ Terinspirasi dari [Medium](https://medium.com/)
 
 - install dependensi
 
-  ```
+  ```bash
     npm install
     composer install
   ```
@@ -78,25 +78,25 @@ Terinspirasi dari [Medium](https://medium.com/)
 
 - Buat App key
 
-  ```
+  ```bash
     php artisan key:generate
   ```
 
 - run migrate
-  ``` 
+  ``` bash
     php artisan migrate
   ```
 
 - run app dan vite
 
-  ```
+  ```bash
     npm run dev
     php artisan serve
   ```
 
 - run shedule (opsional)(untuk set quotes today)
 
-  ```
+  ```bash
     php artisan schedule:work
   ```
 
