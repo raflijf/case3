@@ -48,7 +48,7 @@ Terinspirasi dari [Medium](https://medium.com/)
 
 - copy .env.example -> .env
 
-- sesuaikan config database, Mail, dan supabase storage
+- sesuaikan config database, Mail, dan img storage
   ```dotenv
     #database 
     DB_CONNECTION=mysql
@@ -68,7 +68,10 @@ Terinspirasi dari [Medium](https://medium.com/)
     MAIL_FROM_ADDRESS=your-email@gmail.com
     MAIL_FROM_NAME=Literacy
 
-    #Supabase Storage (upload image)
+    #type imge storage
+    IMAGE_STORAGE=disk # disk(default) or supabase
+
+    #(OPSIONAL) jika anda pakai supabase storage
     SUPABASE_API_KEY=your-supabase-secret-key
     SUPABASE_UPLOAD_URL=https://your-project-id.supabase.co/storage/v1/object/your-bucket/your-file
     SUPABASE_PUBLIC_URL=https://your-project-id.supabase.co/storage/v1/object/public/your-bucket/
@@ -83,6 +86,11 @@ Terinspirasi dari [Medium](https://medium.com/)
 - run migrate
   ``` bash
     php artisan migrate
+  ```
+
+- run storage link (jika menggunakan)
+  ``` bash
+    php artisan storage:link
   ```
 
 - run app dan vite
@@ -103,7 +111,12 @@ oleh di dalam case itu tertulis "port forwading" jadi saya pakai cloud agar tida
 
 ## Note
 - oleh auth di App ini dibuat dari nol/native untuk method global user bawaan `auth()->user()` diganti jadi  `me()`
-
+- ada dua file/image storage yaitu supabase dan disk(local), defaultnya disk, jika tetap menggunakan disk perhatikan variable .env `APP_URL` jika app jalan di localhost tidak perlu diubah, dan jika anda meneggunakan host lain contohny laragon  maka perlu ubah default vlaue `APP_URL` menjadi 
+```dotenv
+  APP_URL=http://case3.test
+```
+guna sebagai path untuk disimpan di db dan ditampilkan di client
+ 
 (klo ada error boleh kirim email raflijf7@gmail.com atau chat wa (kalau ada 😁😁😁))
 
 
