@@ -51,6 +51,30 @@ Terinspirasi dari [Medium](https://medium.com/)
 - copy .env.example -> .env
 
 - sesuaikan config database, Mail, dan supabase storage
+  ```dotenv
+    #database 
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=literacy
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+    #Mail (reset password dan feedback)
+    MAIL_MAILER=smtp
+    MAIL_SCHEME=smtp
+    MAIL_HOST=smtp.gmail.com
+    MAIL_PORT=587
+    MAIL_USERNAME=your-email@gmail.com
+    MAIL_PASSWORD=your-app-password
+    MAIL_FROM_ADDRESS=your-email@gmail.com
+    MAIL_FROM_NAME=Literacy
+
+    #Supabase Storage (upload image)
+    SUPABASE_API_KEY=your-supabase-secret-key
+    SUPABASE_UPLOAD_URL=https://your-project-id.supabase.co/storage/v1/object/your-bucket/your-file
+    SUPABASE_PUBLIC_URL=https://your-project-id.supabase.co/storage/v1/object/public/your-bucket/
+  ```
 
 - Buat App key
 
@@ -59,9 +83,9 @@ Terinspirasi dari [Medium](https://medium.com/)
   ```
 
 - run migrate
-    ``` 
-        php artisan migrate
-    ```
+  ``` 
+    php artisan migrate
+  ```
 
 - run app dan vite
 
